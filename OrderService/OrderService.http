@@ -1,0 +1,14 @@
+@OrderService_HostAddress = http://localhost:5174
+
+GET {{OrderService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{OrderService_HostAddress}}/api/SyncOrder/GetCartData
+Accept: application/json
+
+ 
+
+
+###
